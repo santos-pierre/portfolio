@@ -6,9 +6,10 @@ mix.setPublicPath('source/assets/build');
 
 mix.jigsaw()
     .js('source/_assets/js/main.js', 'js')
-    .sass('source/_assets/sass/main.scss', 'css')
+    .postCss('source/_assets/css/main.css', './source/assets/build/css/main.css', [
+        require('tailwindcss'),
+    ])
     .options({
         processCssUrls: false,
     })
     .version();
-    
