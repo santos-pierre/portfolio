@@ -1,5 +1,8 @@
 @extends('_layouts.master')
 
 @section('body')
-    <x-header></x-header>
+    <div x-data="langRessources()">
+        <x-header-desktop></x-header-desktop>
+        <x-header-mobile></x-header-mobile>
+    </div>
 @endsection

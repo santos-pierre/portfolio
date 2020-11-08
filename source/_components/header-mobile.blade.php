@@ -1,11 +1,12 @@
-<header class="h-screen w-screen" style="background-image: url(assets/images/bg-header-portfolio.png); background-position: right; background-repeat: no-repeat; background-size: cover">
-    <div class="h-screen text-white flex flex-col space-y-10 justify-center ml-24">
-        <div class="header-title flex flex-col">
-            <h2 class="text-5xl text-bold w-8/12 text-wrap leading-none">Santos Batista Braga Pierre</h2>
-            <h3 class="text-3xl text-semibold">Web Developer</h3>
+<header class="h-screen w-screen md:hidden blog" style="background-image: url(assets/images/mobile-bg-header-portfolio.png); background-position: right; background-repeat: no-repeat; background-size: cover">
+    <x-switch-lang />
+    <div class="h-screen text-cool-gray-100 flex flex-col space-y-5 justify-center p-5">
+        <div class="header-title flex flex-col space-y-1">
+            <h2 class="text-3xl font-bold w-8/12 text-wrap leading-none" x-text="lang.header.name"></h2>
+            <h3 class="text-2xl font-semibold" x-text="lang.header.job"></h3>
         </div>
-        <div class="header-text w-1/2 text-wrap">
-            <p class="text-sm font-medium">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut, quisquam, omnis enim sed neque veniam, repellendus minima dolore repudiandae earum qui alias architecto porro illum fugiat quidem? Fugit quisquam repellendus aliquid distinctio modi non impedit, alias aut laudantium quas sequi eveniet necessitatibus repellat blanditiis cumque, aperiam optio deserunt reprehenderit! Fuga cupiditate quos illo, a sequi facere repudiandae laborum modi temporibus, suscipit dicta nesciunt.</p>
+        <div class="header-text text-wrap">
+            <p class="text-base font-semibold" x-text="lang.header.description"></p>
         </div>
         <div class="social-icons flex space-x-3">
             <a href="#" class="group rounded-full bg-gray-50 w-8 h-8 flex justify-center items-center hover:bg-gray-700 transition-colors duration-300">
@@ -25,17 +26,11 @@
             </a>
         </div>
         <div class="links flex space-x-3 items-center font-semibold">
-            <a href="#" class="hover:text-gray-300">
-                Experiences
-            </a>
+            <a href="#" class="hover:text-gray-300" x-text="lang.header.nav.experience"></a>
             <span class="w-2 h-2 bg-white opacity-75 rounded-full"></span>
-            <a href="#" class="hover:text-gray-300">
-                Projects
-            </a>
+            <a href="#" class="hover:text-gray-300" x-text="lang.header.nav.projects"></a>
             <span class="w-2 h-2 bg-white opacity-75 rounded-full"></span>
-            <a href="#" class="hover:text-gray-300"> 
-                Contact Me
-            </a>
+            <a href="#" class="hover:text-gray-300" x-text="lang.header.nav.contact"> </a>
         </div>
     </div>
 </header>

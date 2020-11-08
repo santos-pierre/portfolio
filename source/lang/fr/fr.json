@@ -1,0 +1,12 @@
+{
+    "header": {
+        "name" : "Santos Pierre",
+        "job" : "Développeur Web",
+        "description" : "Développeur passionné, mes technologies favorites en ce moment : TailwindCSS, AlpineJs, Livewire et Laravel. Apprendre tout les jours de mes expériences pour découvrir toujours plus",
+        "nav" : {
+            "experience": "Expériences",
+            "projects": "Projets",
+            "contact": "Contactez Moi"
+        }
+    }
+}

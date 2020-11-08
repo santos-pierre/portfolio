@@ -18,6 +18,8 @@
     },
     "dependencies": {
         "@tailwindcss/ui": "^0.7.2",
+        "alpinejs": "^2.7.3",
+        "i18next": "^19.8.3",
         "tailwindcss": "^1.9.6"
     }
 }

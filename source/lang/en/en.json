@@ -1,0 +1,12 @@
+{
+    "header": {
+        "name" : "Santos Pierre",
+        "job" : "Web Developer",
+        "description" : "Passionate developer, favorite stack at the moment is TALL (TailwindCSS, AlpineJs, Livewire, Laravel). Learning everyday from my experiences to discover all the time.",
+        "nav" : {
+            "experience": "Experiences",
+            "projects": "Projects",
+            "contact": "Contact Me"
+        }
+    }
+}
